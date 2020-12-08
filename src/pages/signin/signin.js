@@ -2,8 +2,6 @@ import React from 'react'
 import Grid from '@material-ui/core/Grid';
 import styles from './signin.css'
 import bird from "../../utils/img/—Pngtree—watercolor color bird camera elements_4263242.png"
-import { TextField } from '@material-ui/core';
-import Button from '@material-ui/core/Button';
 
 
 export default function SignIn() {
@@ -25,19 +23,18 @@ export default function SignIn() {
                                         <div className='welcome'>
                                             <p>Welcome to MusBird</p>
                                         </div>
-                                        <div className='TextField'>
-                                            <TextField
-                                            required
-                                            id="outlined-required"
-                                            label="Number or E-mail"
-                                            placeholder="Enter your Number or E-mail"
-                                            variant="outlined"
-                                            />
+                                        <div className='Form'>
+                                            <form className='Form'>
+                                                <input
+                                                type='text'
+                                                placeholder='Number or E-mail'>
+                                                </input>
+                                            </form>
                                         </div>
                                         <div className="Button-signIn">
-                                            <Button size="large" className='but'>
+                                            <button onClick={() => alert('Undefined')}size="large" className='but'>
                                               Login
-                                            </Button>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>

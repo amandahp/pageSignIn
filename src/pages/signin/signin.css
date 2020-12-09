@@ -57,14 +57,12 @@
 }
 
 .Button-signIn{
-    margin-left: 70%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .but{
     width: 70%;
     height: 40px;
-    margin-left: -10%;
     background-color:#A4C7A7;
     border-radius: 38%;
     font-family: 'M PLUS Rounded 1c', sans-serif;

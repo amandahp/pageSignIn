@@ -29,12 +29,12 @@ export default function SignIn() {
                                                 type='text'
                                                 placeholder='Number or E-mail'>
                                                 </input>
+                                                <div className="Button-signIn">
+                                                    <button onClick={() => alert('Undefined')}size="large" className='but' type='submit'>
+                                                        Login
+                                                    </button>
+                                                </div>
                                             </form>
-                                        </div>
-                                        <div className="Button-signIn">
-                                            <button onClick={() => alert('Undefined')}size="large" className='but'>
-                                              Login
-                                            </button>
                                         </div>
                                     </div>
                                 </div>
